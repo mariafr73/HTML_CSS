@@ -1,0 +1,49 @@
+/*RESETE*/
+*,*{
+    margin: 0;
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background: pink;
+}
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #ff83cb solid;
+}
+.menu {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.menu a {
+    padding: 10px;
+    
+}
+.menu a:hover {
+    color: #ae4fe5;
+}
+.redes ul {
+    display: flex;
+    justify-content: center;
+}
+.redes ul a {
+    display: block;
+    padding: 10px;
+}
+.redes ul li a img {
+    max-width: 40px;
+}
